@@ -15,7 +15,7 @@ export default function LinkCard({ id, title, url, emoji }: LinkItem) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
-      className="block w-full rounded-xl border border-[var(--card-border)] bg-[var(--card)] px-4 py-3.5 text-center font-medium shadow-sm transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-0"
+      className="glass-card block w-full rounded-2xl px-5 py-4 text-center font-medium tracking-tight"
     >
       <span className="mr-1.5">{emoji}</span>
       {title}
