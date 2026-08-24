@@ -7,7 +7,8 @@ export const profile: Profile = {
 };
 
 export const links: LinkItem[] = [
-  { id: "github", title: "GitHub", url: "https://github.com/wisestar311" },
-  { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/feed/" },
-  { id: "blog", title: "Blog", url: "https://wisestar311.github.io/my-blog/" },
+  { id: "github", title: "GitHub", url: "https://github.com/wisestar311", emoji: "🐙" },
+  { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/feed/", emoji: "💼" },
+  { id: "blog", title: "Blog", url: "https://wisestar311.github.io/my-blog/", emoji: "✍️" },
+  { id: "instagram", title: "Instagram", url: "https://www.instagram.com/starwise311/", emoji: "📸" },
 ];
